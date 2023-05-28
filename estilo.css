@@ -1,0 +1,177 @@
+body {
+  background-color: #030303;
+
+  background-image: radial-gradient(#45464c 0.5px, transparent 0.5px),
+    radial-gradient(#45464c 0.5px, #030303 0.5px);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+#inicio {
+  color: black;
+  background-color: floralwhite;
+  border-radius: 300px;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+#lol {
+  border-radius: 30% 50px;
+  width: 500px;
+}
+#info {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+.contexto {
+  color: aliceblue;
+  font-size: 105%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  text-align: justify;
+  padding: 0 5%;
+}
+#iconos {
+  border-radius: 30%;
+  width: 50px;
+}
+.Background {
+  background-color: #141414;
+  color: white;
+}
+.Background:hover {
+  color: white;
+}
+.Background:focus {
+  color: rebeccapurple;
+}
+.Background2 {
+  background: rgb(148, 14, 14);
+  background: linear-gradient(
+    0deg,
+    rgb(114, 94, 94) 80%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+}
+.Background3 {
+  display: flexbox;
+  justify-content: center;
+  background: rgb(243, 9, 9);
+  color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.slider-frame {
+  width: 500px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+}
+.slider-frame ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 16s infinite alternate ease-out;
+}
+.slider-frame li {
+  list-style: none;
+  width: 100%;
+}
+.slider-frame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  20% {
+    margin-left: 0%;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+}
+.Background2 {
+  background-color: #45464c;
+}
+.Icons {
+  border-radius: 30px;
+}
+.Icons:hover {
+  opacity: 0.4;
+}
+
+.Background {
+  background-color: #141414;
+  color: white;
+}
+.Background:hover {
+  color: red;
+}
+.Background:focus {
+  color: rebeccapurple;
+}
+.Background2 {
+  background: rgb(20, 20, 20);
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 1) 80%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  color: white;
+}
+.Background3 {
+  display: flexbox;
+  justify-content: center;
+  background: white;
+  color: aliceblue;
+}
+
+.Centrador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divisor {
+  height: 120px;
+  background-image: url(Imagenes/Fondo.png);
+}
+#equi {
+  background-color: #45464c;
+  border-radius: 300px;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+  font-style: oblique;
+}
+#l {
+  border-radius: 30%;
+  width: 50px;
+}
+
